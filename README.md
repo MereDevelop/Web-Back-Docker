@@ -11,4 +11,4 @@
 >  주의사항
 * 도커와 같은 포트를 쓰고있는 프로그램을 ``실행 전``에 미리 종료 해 두어야함
   * ``3306`` : mysql, ``9091`` : server, ``6379`` : redis
-* 만약 image를 자동으로 pull되지않아 실행이 안된다면 우측 하단의 ``package``에서 직접 image들을 ``docker pull [image_name]`` 한 다음에 진행
+* 만약 docker image가 자동으로 pull되지않아 container가 실행이 안된다면 우측 하단의 ``package``에서 직접 image들을 ``docker pull [image_name]`` 한 다음에 진행
