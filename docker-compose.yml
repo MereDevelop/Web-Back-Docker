@@ -1,0 +1,52 @@
+version: "3"
+services:
+  mysql:
+    image: ghcr.io/meredevelop/mysql/mysql-server:latest
+
+    environment:
+      MYSQL_DATABASE: database
+      MYSQL_ROOT_PASSWORD: 1114
+      MYSQL_ROOT_HOST: '%'
+      TZ: 'Asia/Seoul'
+    ports:
+      - 3306:3306
+    command:
+      # - "mysqld"
+      - "--character-set-server=utf8mb4"
+      - "--collation-server=utf8mb4_unicode_ci"
+      # - default-authentication-plugin=mysql_native_password
+    volumes:
+      # - ./mysql/data:/var/lib/mysql
+      # - ./mysql/conf:/etc/mysql/conf.d
+       - ./mysql-init/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    networks:
+      - corn_net
+    restart: always
+  redis:
+    image: ghcr.io/meredevelop/redis:6.2.5
+    command: redis-server
+    restart: always
+    networks:
+      - corn_net
+    ports:
+      - 6379:6379
+  backend:
+
+    image: ghcr.io/meredevelop/merewebback-backend:latest
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/database?useSSL=false&allowPublicKeyRetrieval=true
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1114
+      SPRING_REDIS_HOST: redis
+      SPRING_REDIS_PORT: 6379
+    ports:
+      - 9091:9091
+
+    depends_on:
+      - mysql
+      - redis
+    networks:
+      - corn_net
+networks:
+  corn_net:
+    driver: bridge
