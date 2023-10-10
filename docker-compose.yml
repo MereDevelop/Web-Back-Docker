@@ -11,7 +11,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - ./mysql-init/dump.sql:/docker-entrypoint-initdb.d/dump.sql
+      - ./mysql-init/Dump_mere_1006_All.sql:/docker-entrypoint-initdb.d/Dump_mere_1006_All.sql
     networks:
       - corn_net
     restart: always
