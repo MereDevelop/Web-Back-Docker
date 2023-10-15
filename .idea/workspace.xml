@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96fe7b9b-9d10-44f7-9674-b2d5f4d7f7f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/mysql-init/Dump_mere_1015_All.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-init/dump.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-init/Dump_mere_1006_All.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-init/Dump_mere_1006_All.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/sun/MereBackProjects/WebBackDocker/mysql-init",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/Web-Back-Docker",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +86,7 @@
       <workItem from="1696759827481" duration="1980000" />
       <workItem from="1696783738378" duration="629000" />
       <workItem from="1696860418096" duration="4876000" />
+      <workItem from="1697381589696" duration="899000" />
     </task>
     <servers />
   </component>
