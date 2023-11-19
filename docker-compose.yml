@@ -11,7 +11,7 @@ services:
     ports:
       - 3306:3306
     volumes:
-      - ./mysql-init/Dump_mere_1016_All_owner_bcrypt.sql:/docker-entrypoint-initdb.d/Dump_mere_1016_All_owner_bcrypt.sql
+      - ./mysql-init/Dump_mere_1113_all.sql:/docker-entrypoint-initdb.d/Dump_mere_1113_all.sql
     networks:
       - corn_net
     restart: always

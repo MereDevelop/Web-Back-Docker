@@ -7,7 +7,7 @@
     <list default="true" id="96fe7b9b-9d10-44f7-9674-b2d5f4d7f7f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql-init/Dump_mere_1015_All.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-init/Dump_mere_1016_All_owner_bcrypt.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-init/Dump_mere_1016_All_owner_bcrypt.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mysql-init/Dump_mere_1113_all.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/PC/IdeaProjects/Mere-Web-Back",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/Web-Back-Docker/mysql-init",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +49,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\Web-Back-Docker\mysql-init" />
       <recent name="$PROJECT_DIR$/mysql-init" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -92,6 +93,7 @@
       <workItem from="1697381589696" duration="899000" />
       <workItem from="1697385038359" duration="93000" />
       <workItem from="1697502817548" duration="388000" />
+      <workItem from="1700395166690" duration="190000" />
     </task>
     <servers />
   </component>
